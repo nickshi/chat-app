@@ -1,0 +1,21 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+        display: 'flex',
+        position: 'absolute',
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0,
+        backgroundColor: '#000000',
+        opacity: 0.5,
+    },
+
+    indicator: {
+        flex: 1,
+        alignItems: 'center'
+    }
+})
+
+export default styles;
